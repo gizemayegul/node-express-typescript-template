@@ -1,5 +1,5 @@
 import express, { Express, Request, Response, Application } from "express";
-import "./db";
+import "./config/db";
 import middleWare from "./config";
 import userRoute from "./routes/user.routes";
 import router from "./routes/index.routes";

@@ -1,6 +1,6 @@
 import express, { Application, Express } from "express";
 import dotenv from "dotenv";
-import app from "./app";
+import app from "./src/app";
 
 dotenv.config();
 // ℹ️ Sets the PORT for our app to have access to it. If no env has been set, we hard code it to 5005
